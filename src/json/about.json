@@ -1,0 +1,21 @@
+{
+    "primary_title": "1 VULHUNTER产品功能",
+    "secondary_title": "1.1 常见安全弱点检测",
+    "paragraph": [
+        {
+            "content": "截至2018年5月，VulHunter已经支持近50种安全弱点的检测（见图5），能对应用程序执行覆盖了OWASP Top 10和CWE/SANS Top 25所包含常见安全弱点的检测。",
+            "picture": "image001.jpg"
+        },
+        {
+            "content": "截至2018年5月，VulHunter已经支持近50种安全弱点的检测（见图5），能对应用程序执行覆盖了OWASP Top 10和CWE/SANS Top 25所包含常见安全弱点的检测。"
+        },
+        {
+            "content": "截至2018年5月，VulHunter已经支持近50种安全弱点的检测（见图5），能对应用程序执行覆盖了OWASP Top 10和CWE/SANS Top 25所包含常见安全弱点的检测。",
+            "picture": "image002.jpg"
+        },
+        {
+            "content": "截至2018年5月，VulHunter已经支持近50种安全弱点的检测（见图5），能对应用程序执行覆盖了OWASP Top 10和CWE/SANS Top 25所包含常见安全弱点的检测。",
+            "picture": "image003.jpg"
+        }
+    ]
+}
