@@ -15,6 +15,7 @@ Vue.config.productionTip = false
 
 Vue.use(ElementUI)
 Vue.use(components)
+
 Vue.prototype.$axios = Axios
 
 new Vue({
