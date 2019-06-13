@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import menus from '@/config/menu-config'
 
 Vue.use(Router)
 
@@ -9,6 +8,16 @@ var routes = [
     path: '/',
     name: 'index',
     component: () => import('@/components/MainPage.vue')
+  },
+  {
+    path: '/editor',
+    name: 'editor',
+    component: () => import('@/components/Editor.vue')
+  },
+  {
+    path: '/update',
+    name: 'update',
+    component: () => import('@/components/Update.vue')
   },
   {
     path: '/sub',
