@@ -1,4 +1,4 @@
-# v-help
+# VulHunterDocs
 
 > A Vue.js project
 

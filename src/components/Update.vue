@@ -1,7 +1,8 @@
 <template>
 <div class="editor-demo">
     <Editor v-model="html" />
-    <div v-html="html"></div>
+    <!-- <div v-html="html"></div> -->
+    <div>获取到的数据 ==》 {{ html }}</div>
 </div>
 </template>
 
