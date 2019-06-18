@@ -3,6 +3,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'normalize.css'
 import 'vue-awesome/icons'
+
 import components from '@/plugins/components.js'
 
 import Axios from 'axios'
