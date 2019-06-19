@@ -3,8 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-var routes = [
-  {
+var routes = [{
     path: '/',
     name: 'index',
     component: () => import('@/components/MainPage.vue')
@@ -12,19 +11,28 @@ var routes = [
   {
     path: '/editor',
     name: 'editor',
-    component: () => import('@/components/Editor.vue')
+    component: () => import('@/components/admin/Editor.vue')
+  },
+  {
+    path: '/list',
+    name: 'list',
+    component: () => import('@/components/admin/List.vue')
+  },
+  {
+    path: '/add',
+    name: 'add',
+    component: () => import('@/components/admin/Add.vue')
   },
   {
     path: '/update',
     name: 'update',
-    component: () => import('@/components/Update.vue')
+    component: () => import('@/components/admin/Update.vue')
   },
   {
     path: '/sub',
     name: 'SubPage',
     component: () => import('@/components/SubPage.vue'),
-    children: [
-      {
+    children: [{
         path: '/',
         name: 'ITheory',
         component: () => import('@/components/asidemenu/ITheory.vue'),

@@ -1,7 +1,6 @@
 <template>
   <div class="rich-text">
     <div :id="editorId"></div>
-    <button>更新文章</button>
   </div>
 </template>
 
@@ -20,7 +19,7 @@ export default {
   props: {
     inline: { type: Boolean, default: false }, // 是否 inline 模式
     html: { type: String, default: "<p></p>" }, // HTML 内容
-    minHeight: { type: Number, default: 300 }, // 最小高度
+    minHeight: { type: Number, default: 600 }, // 最小高度
     toolbar: {
       type: Number,
       default: 0,
@@ -119,7 +118,7 @@ export default {
 
 <style lang="scss">
 .rich-text {
-  width: 80%;
+  width: 100%;
   // 微调 Full featured 的编辑器阴影, 工具栏阴影
   .mce-tinymce {
     box-shadow: 0 0px 1px rgba(0, 0, 0, 0.25);
