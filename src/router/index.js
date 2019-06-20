@@ -58,6 +58,11 @@ var routes = [{
         component: () => import('@/components/asidemenu/ISpecification.vue'),
       },
       {
+        path: 'parames',
+        name: 'parames',
+        component: () => import('@/components/asidemenu/TechnicalParameters.vue'),
+      },
+      {
         path: 'MAbout',
         name: 'MAbout',
         component: () => import('@/components/asidemenu/MAbout.vue'),

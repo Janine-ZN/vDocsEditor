@@ -21,6 +21,9 @@
         <li>
           <router-link to="/sub/ISpecification">产品规格</router-link>
         </li>
+        <li>
+          <router-link to="/sub/parames">技术参数</router-link>
+        </li>
       </ul>
       <div class="m_line"></div>
       <div class="m_lable">
