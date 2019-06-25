@@ -13,12 +13,7 @@ var routes = [{
     name: 'editor',
     component: () => import('@/components/admin/Editor.vue')
   },
-  {
-    path: '/list',
-    name: 'list',
-    component: () => import('@/components/admin/List.vue')
-  },
-  {
+  /* {
     path: '/add',
     name: 'add',
     component: () => import('@/components/admin/Add.vue')
@@ -27,6 +22,27 @@ var routes = [{
     path: '/update',
     name: 'update',
     component: () => import('@/components/admin/Update.vue')
+  }, */
+  {
+    path: '/admin',
+    name: 'admin',
+    component: () => import('@/components/admin/Admin.vue'),
+    children: [{
+        path: '/',
+        name: 'list',
+        component: () => import('@/components/admin/List.vue')
+      },
+      {
+        path: 'list',
+        name: 'list',
+        component: () => import('@/components/admin/List.vue')
+      },
+      {
+        path: 'add-update',
+        name: 'add-update',
+        component: () => import('@/components/admin/AddAndUpdate.vue')
+      }
+    ]
   },
   {
     path: '/sub',

@@ -91,7 +91,7 @@ export default {
               self.minHeight + "px";
           }
         });
-    },
+    }
   },
   computed: {
     // 使用时间戳和随机数生成 editorId
@@ -118,6 +118,7 @@ export default {
 
 <style lang="scss">
 .rich-text {
+  margin-top: 10px;
   width: 100%;
   // 微调 Full featured 的编辑器阴影, 工具栏阴影
   .mce-tinymce {
